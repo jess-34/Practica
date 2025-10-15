@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tarjeta de Presentación</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .tarjeta {
+            background-color: white;
+            width: 350px;
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .nombre {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #ac2779;
+            padding-bottom: 15px;
+        }
+
+        .titulo {
+            color: #0a0f0f;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .descripcion {
+            color: #06121d;
+            text-align: justify;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .contacto {
+            background-color: #dc7dd3;
+            padding: 20px;
+            border-radius: 12px;
+            border-left: 5px solid #d20884;
+        }
+
+        .contacto p {
+            margin: 10px 0;
+            color: #010a12;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="tarjeta">
+        <h1 class="nombre">Del Valle Sanchez Jessica</h1>
+        <h2 class="titulo">Estudiante de Universidad</h2>
+        <p class="descripcion">Buena Onda y Amigable...</p>
+        <div class="contacto">
+            <p>📧 jessdelvalle364@gmail.com</p>
+            <p>📱 +525530275793</p>
+        </div>
+    </div>
+</body>
+</html>
